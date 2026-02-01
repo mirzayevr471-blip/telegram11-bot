@@ -8,9 +8,9 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemo
 from openpyxl import Workbook, load_workbook
 
 # ================== SOZLAMALAR ==================
-TOKEN = "token"
-ADMIN_IDS = ["admin_id"]
-ADMIN_GROUPS = ["gr_id"]
+TOKEN = "8437541239:AAGwZGH_dxw4sQtHaXTXh61bPIMCwT1uyt0"
+ADMIN_IDS = [6633386764, 8251830471]
+ADMIN_GROUPS = [-1003722111761]
 FILE_NAME = "users.xlsx"
 
 bot = Bot(token=TOKEN)
@@ -218,4 +218,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
